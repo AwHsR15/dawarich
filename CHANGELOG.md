@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## Unreleased
+
+### Fixed
+
+- The map no longer leaps to a just-left place or a phantom spot off your route: iOS visit reports delivered after departure and coarse cell-tower fixes without motion data are now filtered out as anomalies. Existing histories are re-evaluated automatically after the upgrade, and tracks and stats are rebuilt along the way.
+
 ## [1.12.0] - 2026-08-11, Berlin
 
 ### Added
